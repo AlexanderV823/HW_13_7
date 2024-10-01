@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ce2dc35-0b8b-46b0-8688-9b4ef6e60fc6">
+  <name>ДомашнееЗадание_12_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашнее задание 12.2</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d787a9c6-8a84-4b07-bff9-5dae9c5ac435"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="62b8799c-5e7c-49da-9dc5-522c144563e7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="188306b4-5c5a-4383-bce9-4add7f67edc7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7d88186b-774c-491e-8ba4-cd39f1ae535d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="45038959-6ba2-4890-994e-f6b1ba9a84ae"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4d6a4140-5818-4ee0-8e4b-4e4b32d583e7"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5d07430a-6548-4b8e-a3d3-b4ece505a09b"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ДЗ_12_2_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ДЗ_12_2_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>ООО Нетология</value>
+  </copyright>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="874d5eb5-5647-4203-bab0-252b8953006b" extendedConfigurationObject="88f37154-ded7-4bfd-87d2-34f4461294ad">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ДЗ_12_2_ПрограммныйИнтерфейс</subsystems>
+  <roles>Role.ДЗ_12_2_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <dataProcessors>DataProcessor.ДЗ_12_2_АлгоритмыДляРефакторинга</dataProcessors>
+</mdclass:Configuration>

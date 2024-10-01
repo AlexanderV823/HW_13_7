@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deef5add-52fe-420c-97df-896a02c8cb0c">
+  <producedTypes>
+    <objectType typeId="817f1827-8102-4ac5-aa22-56473bd9dc86" valueTypeId="fb988aaa-4d56-44f8-9b98-6ad58d2d48f8"/>
+    <managerType typeId="18d2efed-e558-476f-bf46-0f75cc3e27e5" valueTypeId="731290bc-c875-4ee9-96c1-28c81cf524f8"/>
+  </producedTypes>
+  <name>ДЗ_12_2_АлгоритмыДляРефакторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы для рефакторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДЗ_12_2_АлгоритмыДляРефакторинга.Form.Форма</defaultForm>
+  <forms uuid="8c091610-4970-44bb-978c-4e9928ff4751">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
